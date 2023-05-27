@@ -8,23 +8,24 @@
 
 void prompt(void)
 {
-        char *prompt_str = "#cisfun$ ";
+	char *prompt_str = "#cisfun$ ";
 
-        write(STDOUT_FILENO, prompt_str, strlen(prompt_str));
+	write(STDOUT_FILENO, prompt_str, strlen(prompt_str));
 }
 
 /**
- * main -entry point of the program
- *
- * Return: 0 on success
- */
+* main -entry point of the program
+* @ac: -argument count
+* @argv: -argument vector
+* Return: 0 on success
+*/
 
 int main(int ac, char **argv)
 {
-	  /* declare the unused varibales */
-        (void) ac;
-        (void) argv;
+	/* declare the unused varibales */
+	(void) ac;
+	(void) argv;
 
-        prompt();
+	prompt();
 	return (0);
 }
