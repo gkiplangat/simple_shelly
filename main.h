@@ -5,4 +5,7 @@
 #include <string.h>
 #include <unistd.h>
 
+/* Functions declarations */
+void prompt(void);
+
 #endif
