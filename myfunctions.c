@@ -8,8 +8,8 @@
 
 void prompt(void)
 {
-        char *prompt_str = "#cisfun$ ";
+	char *prompt_str = "#cisfun$ ";
 
-        write(STDOUT_FILENO, prompt_str, strlen(prompt_str));
+	write(STDOUT_FILENO, prompt_str, strlen(prompt_str));
 }
 
